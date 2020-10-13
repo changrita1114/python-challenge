@@ -20,11 +20,11 @@ with open(csvpath) as csvfile:
         total_votes += 1
         if row[2] == 'Khan':
            khan_count += 1
-        if row[2] == 'Correy':
+        elif row[2] == 'Correy':
            correy_count +=1
-        if row[2] == 'Li':
+        elif row[2] == 'Li':
            li_count +=1
-        if row[2] == "O'Tooley":
+        else:
            otooley_count +=1
 
     percent_khan = (khan_count / total_votes)*100
