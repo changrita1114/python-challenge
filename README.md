@@ -1,24 +1,24 @@
 ## python-challenge
 ### PyBank
-* In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will give a set of financial data called budget_data.csv. The dataset is composed of two columns: Date and Profit/Losses. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
-* Your task is to create a Python script that analyzes the records to calculate each of the following:
+* In this task, a Python script was created for analyzing the financial records of the company. A set of financial data called budget_data.csv was given. The dataset is composed of two columns: Date and Profit/Losses. 
+* A Python script was created that analyzed the records to calculate each of the following:
     * The total number of months included in the dataset
     * The net total amount of "Profit/Losses" over the entire period
     * The average of the changes in "Profit/Losses" over the entire period 
     * The greatest increase in profits (date and amount) over the entire period
     * The greatest decrease in losses (date and amount) over the entire period
-* As an example, your analysis should look similar to the one below:
-![alt result img]
+* Result:</br>
+![alt result img](https://github.com/changrita1114/python-challenge/blob/master/PyBank/analysis/pybank.png?raw=true)
 
 ### PyPoll
-* In this challenge, you are tasked with helping a small, rural town modernize its vote counting process.
-* You will be give a set of poll data called election_data.csv. The dataset is composed of three columns: Voter ID, County, and Candidate. Your task is to create a Python script that analyzes the votes and calculates each of the following:
+* In this task, a small, rural town modernize asked for helping its vote counting process.
+* A set of poll data called election_data.csv was given. The dataset is composed of three columns: Voter ID, County, and Candidate. A Python script was created that analyzed the votes and calculates each of the following:
     * The total number of votes cast
     * A complete list of candidates who received votes
     * The percentage of votes each candidate won
     * The total number of votes each candidate won
     * The winner of the election based on popular vote.
-* As an example, your analysis should look similar to the one below:
-![alt result img]
+* Result:</br>
+![alt result img](https://github.com/changrita1114/python-challenge/blob/master/PyPoll/analysis/pypoll.png?raw=true)
 ## Disclaimer
 The resources of this master branch are only for educational purposes. All reserved rights belong to UCSD Data Science and Visualization Boot Camp.
